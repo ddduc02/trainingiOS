@@ -12,7 +12,17 @@
 		843ACAA82B3EA4310072FA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACAA72B3EA4310072FA29 /* ViewController.swift */; };
 		843ACAAB2B3EA4310072FA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843ACAA92B3EA4310072FA29 /* Main.storyboard */; };
 		843ACAAD2B3EA4320072FA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843ACAAC2B3EA4320072FA29 /* Assets.xcassets */; };
-		843ACAB02B3EA4320072FA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843ACAAE2B3EA4320072FA29 /* LaunchScreen.storyboard */; };
+		843ACABA2B3EA4890072FA29 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACAB82B3EA4890072FA29 /* HomeViewController.swift */; };
+		843ACABB2B3EA4890072FA29 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843ACAB92B3EA4890072FA29 /* HomeViewController.xib */; };
+		843ACAC02B3EA5C00072FA29 /* PassingDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACABE2B3EA5C00072FA29 /* PassingDataViewController.swift */; };
+		843ACAC12B3EA5C00072FA29 /* PassingDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843ACABF2B3EA5C00072FA29 /* PassingDataViewController.xib */; };
+		843ACAC62B3EAA3A0072FA29 /* ReceivingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843ACAC42B3EAA3A0072FA29 /* ReceivingViewController.swift */; };
+		843ACAC72B3EAA3A0072FA29 /* ReceivingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843ACAC52B3EAA3A0072FA29 /* ReceivingViewController.xib */; };
+		84A10A1E2B43AD9F0042C879 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A10A1C2B43AD9F0042C879 /* WebViewViewController.swift */; };
+		84A10A1F2B43AD9F0042C879 /* WebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A10A1D2B43AD9F0042C879 /* WebViewViewController.xib */; };
+		84A10A212B43B7590042C879 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 84A10A202B43B7590042C879 /* index.html */; };
+		84A10A252B43B87C0042C879 /* MyWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A10A232B43B87C0042C879 /* MyWebViewViewController.swift */; };
+		84A10A262B43B87C0042C879 /* MyWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A10A242B43B87C0042C879 /* MyWebViewViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +32,18 @@
 		843ACAA72B3EA4310072FA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		843ACAAA2B3EA4310072FA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		843ACAAC2B3EA4320072FA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		843ACAAF2B3EA4320072FA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843ACAB12B3EA4320072FA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843ACAB82B3EA4890072FA29 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		843ACAB92B3EA4890072FA29 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		843ACABE2B3EA5C00072FA29 /* PassingDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataViewController.swift; sourceTree = "<group>"; };
+		843ACABF2B3EA5C00072FA29 /* PassingDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PassingDataViewController.xib; sourceTree = "<group>"; };
+		843ACAC42B3EAA3A0072FA29 /* ReceivingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivingViewController.swift; sourceTree = "<group>"; };
+		843ACAC52B3EAA3A0072FA29 /* ReceivingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceivingViewController.xib; sourceTree = "<group>"; };
+		84A10A1C2B43AD9F0042C879 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		84A10A1D2B43AD9F0042C879 /* WebViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewViewController.xib; sourceTree = "<group>"; };
+		84A10A202B43B7590042C879 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		84A10A232B43B87C0042C879 /* MyWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebViewViewController.swift; sourceTree = "<group>"; };
+		84A10A242B43B87C0042C879 /* MyWebViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyWebViewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,81 @@
 		843ACAA22B3EA4310072FA29 /* trainingiOS */ = {
 			isa = PBXGroup;
 			children = (
-				843ACAA32B3EA4310072FA29 /* AppDelegate.swift */,
-				843ACAA52B3EA4310072FA29 /* SceneDelegate.swift */,
-				843ACAA72B3EA4310072FA29 /* ViewController.swift */,
-				843ACAA92B3EA4310072FA29 /* Main.storyboard */,
-				843ACAAC2B3EA4320072FA29 /* Assets.xcassets */,
-				843ACAAE2B3EA4320072FA29 /* LaunchScreen.storyboard */,
+				84A10A222B43B8660042C879 /* MyWebView */,
+				84A10A1B2B43AD870042C879 /* WebView */,
+				843ACABD2B3EA5AA0072FA29 /* PassingData */,
+				843ACABC2B3EA48E0072FA29 /* Home */,
+				843ACAB72B3EA43C0072FA29 /* Others */,
 				843ACAB12B3EA4320072FA29 /* Info.plist */,
 			);
 			path = trainingiOS;
+			sourceTree = "<group>";
+		};
+		843ACAB72B3EA43C0072FA29 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				843ACAAC2B3EA4320072FA29 /* Assets.xcassets */,
+				843ACAA92B3EA4310072FA29 /* Main.storyboard */,
+				843ACAA32B3EA4310072FA29 /* AppDelegate.swift */,
+				843ACAA52B3EA4310072FA29 /* SceneDelegate.swift */,
+				843ACAA72B3EA4310072FA29 /* ViewController.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		843ACABC2B3EA48E0072FA29 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				843ACAB82B3EA4890072FA29 /* HomeViewController.swift */,
+				843ACAB92B3EA4890072FA29 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		843ACABD2B3EA5AA0072FA29 /* PassingData */ = {
+			isa = PBXGroup;
+			children = (
+				843ACAC32B3EAA210072FA29 /* ReceivingData */,
+				843ACAC22B3EA9CA0072FA29 /* PassingData */,
+			);
+			path = PassingData;
+			sourceTree = "<group>";
+		};
+		843ACAC22B3EA9CA0072FA29 /* PassingData */ = {
+			isa = PBXGroup;
+			children = (
+				843ACABE2B3EA5C00072FA29 /* PassingDataViewController.swift */,
+				843ACABF2B3EA5C00072FA29 /* PassingDataViewController.xib */,
+			);
+			path = PassingData;
+			sourceTree = "<group>";
+		};
+		843ACAC32B3EAA210072FA29 /* ReceivingData */ = {
+			isa = PBXGroup;
+			children = (
+				843ACAC42B3EAA3A0072FA29 /* ReceivingViewController.swift */,
+				843ACAC52B3EAA3A0072FA29 /* ReceivingViewController.xib */,
+			);
+			path = ReceivingData;
+			sourceTree = "<group>";
+		};
+		84A10A1B2B43AD870042C879 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				84A10A1C2B43AD9F0042C879 /* WebViewViewController.swift */,
+				84A10A1D2B43AD9F0042C879 /* WebViewViewController.xib */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		84A10A222B43B8660042C879 /* MyWebView */ = {
+			isa = PBXGroup;
+			children = (
+				84A10A232B43B87C0042C879 /* MyWebViewViewController.swift */,
+				84A10A242B43B87C0042C879 /* MyWebViewViewController.xib */,
+				84A10A202B43B7590042C879 /* index.html */,
+			);
+			path = MyWebView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +211,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843ACAB02B3EA4320072FA29 /* LaunchScreen.storyboard in Resources */,
+				84A10A212B43B7590042C879 /* index.html in Resources */,
+				84A10A1F2B43AD9F0042C879 /* WebViewViewController.xib in Resources */,
+				84A10A262B43B87C0042C879 /* MyWebViewViewController.xib in Resources */,
+				843ACAC12B3EA5C00072FA29 /* PassingDataViewController.xib in Resources */,
+				843ACAC72B3EAA3A0072FA29 /* ReceivingViewController.xib in Resources */,
 				843ACAAD2B3EA4320072FA29 /* Assets.xcassets in Resources */,
 				843ACAAB2B3EA4310072FA29 /* Main.storyboard in Resources */,
+				843ACABB2B3EA4890072FA29 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A10A1E2B43AD9F0042C879 /* WebViewViewController.swift in Sources */,
 				843ACAA82B3EA4310072FA29 /* ViewController.swift in Sources */,
 				843ACAA42B3EA4310072FA29 /* AppDelegate.swift in Sources */,
+				843ACAC02B3EA5C00072FA29 /* PassingDataViewController.swift in Sources */,
 				843ACAA62B3EA4310072FA29 /* SceneDelegate.swift in Sources */,
+				843ACABA2B3EA4890072FA29 /* HomeViewController.swift in Sources */,
+				84A10A252B43B87C0042C879 /* MyWebViewViewController.swift in Sources */,
+				843ACAC62B3EAA3A0072FA29 /* ReceivingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +249,6 @@
 				843ACAAA2B3EA4310072FA29 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		843ACAAE2B3EA4320072FA29 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				843ACAAF2B3EA4320072FA29 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
