@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import GoogleSignIn
 class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -20,11 +20,22 @@ class HomeViewController: UIViewController {
     
     @IBAction func webView(_ sender: UIButton) {
         let vc = WebViewViewController()
-        self.navigationController?.present(vc, animated: true)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func myWebView(_ sender: UIButton) {
         let vc = MyWebViewViewController()
         self.navigationController!.present(vc, animated: true)
+    }
+    
+    @IBAction func firebase(_ sender: UIButton) {
+        if GIDSignIn.sharedInstance.currentUser != nil {
+            let vc = HomeFirebaseViewController()
+            self.navigationController!.pushViewController(vc, animated: true)
+        } else {
+            let vc = LoginWithGGViewController()
+            self.navigationController!.pushViewController(vc, animated: true)
+        }
+        
     }
 }
