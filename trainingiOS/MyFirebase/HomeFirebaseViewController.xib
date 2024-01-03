@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeFirebaseViewController" customModule="trainingiOS" customModuleProvider="target">
             <connections>
+                <outlet property="imageView" destination="MXv-qP-bkV" id="QF8-rN-yO3"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,34 +19,70 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sd3-31-ts2">
-                    <rect key="frame" x="175.66666666666666" y="415.66666666666669" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yyC-bL-ESH">
-                    <rect key="frame" x="151.66666666666666" y="448.66666666666669" width="90" height="35"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPC-ya-3tC">
+                    <rect key="frame" x="296" y="59" width="87" height="35"/>
                     <color key="tintColor" systemColor="systemRedColor"/>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" title="Sign Out"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Sign out"/>
                     <connections>
-                        <action selector="signOut:" destination="-1" eventType="touchUpInside" id="f2F-FK-iFX"/>
+                        <action selector="signOut:" destination="-1" eventType="touchUpInside" id="o6L-Mu-8Iz"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="MXv-qP-bkV">
+                    <rect key="frame" x="0.0" y="103.66666666666666" width="393" height="176.99999999999997"/>
+                    <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="FiM-IL-6I2"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOL-96-Jqk">
+                    <rect key="frame" x="155.33333333333334" y="298" width="82.333333333333343" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Choose"/>
+                    <connections>
+                        <action selector="pickImage:" destination="-1" eventType="touchUpInside" id="kGg-Rq-U9a"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8P-mk-qZc">
+                    <rect key="frame" x="157.33333333333334" y="349" width="78.666666666666657" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Upload"/>
+                    <connections>
+                        <action selector="uploadImage:" destination="-1" eventType="touchUpInside" id="0PN-zn-h37"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3f9-k0-mdb">
+                    <rect key="frame" x="146.66666666666666" y="400" width="100" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Download"/>
+                    <connections>
+                        <action selector="download:" destination="-1" eventType="touchUpInside" id="GQZ-Eg-Gsm"/>
                     </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="Sd3-31-ts2" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="3Xh-m6-SYy"/>
-                <constraint firstItem="yyC-bL-ESH" firstAttribute="top" secondItem="Sd3-31-ts2" secondAttribute="bottom" constant="12" id="ML8-wT-cI7"/>
-                <constraint firstItem="yyC-bL-ESH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Yp9-xh-xnl"/>
-                <constraint firstItem="Sd3-31-ts2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vTA-U6-ZE5"/>
+                <constraint firstItem="o8P-mk-qZc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5mz-q6-eaF"/>
+                <constraint firstItem="qOL-96-Jqk" firstAttribute="top" secondItem="MXv-qP-bkV" secondAttribute="bottom" constant="16" id="CaG-lm-HsV"/>
+                <constraint firstItem="o8P-mk-qZc" firstAttribute="top" secondItem="qOL-96-Jqk" secondAttribute="bottom" constant="16" id="OHl-pR-pea"/>
+                <constraint firstItem="3f9-k0-mdb" firstAttribute="top" secondItem="o8P-mk-qZc" secondAttribute="bottom" constant="16" id="TjG-tG-aLM"/>
+                <constraint firstItem="qOL-96-Jqk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="b7j-XR-3bs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MXv-qP-bkV" secondAttribute="trailing" id="fpA-d0-Piv"/>
+                <constraint firstItem="PPC-ya-3tC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="j4Y-ar-mm8"/>
+                <constraint firstItem="MXv-qP-bkV" firstAttribute="top" secondItem="PPC-ya-3tC" secondAttribute="bottom" constant="8" id="jk0-eD-Cj1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PPC-ya-3tC" secondAttribute="trailing" constant="10" id="pxd-Hg-KrU"/>
+                <constraint firstItem="MXv-qP-bkV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rNr-dI-Vcp"/>
+                <constraint firstItem="3f9-k0-mdb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vDM-QP-CpF"/>
             </constraints>
-            <point key="canvasLocation" x="54" y="20"/>
+            <point key="canvasLocation" x="52.671755725190835" y="19.718309859154932"/>
         </view>
     </objects>
     <resources>
+        <image name="photo" catalog="system" width="128" height="93"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
