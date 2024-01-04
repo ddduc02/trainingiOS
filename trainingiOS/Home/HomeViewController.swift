@@ -28,6 +28,11 @@ class HomeViewController: UIViewController {
         self.navigationController!.present(vc, animated: true)
     }
     
+    @IBAction func realtimeDatabase(_ sender: UIButton) {
+        let vc = RealtimeDatabaseViewController()
+        self.navigationController!.pushViewController(vc, animated: true)
+    }
+    
     @IBAction func firebase(_ sender: UIButton) {
         if GIDSignIn.sharedInstance.currentUser != nil {
             let vc = HomeFirebaseViewController()

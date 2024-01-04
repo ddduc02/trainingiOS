@@ -22,7 +22,7 @@
                     <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Zqn-3l-dqo">
-                            <rect key="frame" x="0.0" y="0.0" width="393" height="137.33333333333334"/>
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="171.66666666666666"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2U-ez-epn">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="34.333333333333336"/>
@@ -54,6 +54,14 @@
                                     <buttonConfiguration key="configuration" style="plain" title="Firebase"/>
                                     <connections>
                                         <action selector="firebase:" destination="-1" eventType="touchUpInside" id="Wjz-J3-AbE"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhj-V1-iQo">
+                                    <rect key="frame" x="0.0" y="137.33333333333334" width="393" height="34.333333333333343"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="RealtimeDatabase"/>
+                                    <connections>
+                                        <action selector="realtimeDatabase:" destination="-1" eventType="touchUpInside" id="jYt-wO-2z3"/>
                                     </connections>
                                 </button>
                             </subviews>
